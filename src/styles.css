@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+:root {
+    --primary-color: #d1cebd;
+    --secondary-color: #333333;
+    --default-color: #ff1e56;
+    --special-color: #ffac41;
+}
+
+.primary-bg {
+    background-color: #d1cebd;
+}
+.secondary-bg{
+    background-color: #333333;
+}
+.default-bg {
+    background-color: #ff1e56;
+}.special-bg {
+    background-color: #ffac41;
+}.primary-color {
+    color: #d1cebd;
+}
+.secondary-color{
+    color: #333333;
+}
+.default-color {
+    color: #ff1e56;
+}.special-color {
+    color: #ffac41;
+}
+
+
+h1, h2, h3, h4, h5, h6, div,textarea ,body {
+    font-family: IRANSans !important;
+}
+.rtl{
+    direction: rtl !important;
+}
+.ltr{
+    direction: ltr !important;
+}
+body{
+    font-size: 1.2em;
+}
+
